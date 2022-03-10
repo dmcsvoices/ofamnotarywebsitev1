@@ -1,5 +1,9 @@
+
+
 .App {
-  text-align: center;
+  text-align: left;
+  min-height: 200vh;
+  background-image: linear-gradient(to bottom right, rgb(11, 174, 45), rgb(229, 236, 233));
 }
 
 .App-logo {
@@ -9,16 +13,16 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+   
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(11, 174, 45);
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +39,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.mainBox {
+  background-color: rgb(11, 174, 45);
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.vertNav  {
+  background-color: rgb(46, 163, 0);
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 6vw;;
+  padding: 5px;
+}
+
+.horzNav {
+  background-color: rgb(46, 163, 0);
+  display: flex;
+  height: 85px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: .5vw;
+  margin-bottom: -1.5vw;
+  padding: 5px;
+}
+
+.articleBox {
+  background-color: rgb(46, 163, 0);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navIcon {
+  margin-top: 10px;
+  padding: 5px;
 }
