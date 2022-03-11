@@ -17,7 +17,7 @@ const Div = styled.div`
 
 const Div2 = styled.div`
   padding: 1px;
-  background-color: rgb(229, 89, 52);
+  background-color: #0096a3;
   display: flex;
   flex-direction: row;
   justify-content: center; 
