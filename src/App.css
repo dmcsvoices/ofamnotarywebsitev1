@@ -3,7 +3,7 @@
 .App {
   text-align: left;
   min-height: 200vh;
-  background-image: linear-gradient(to bottom right, rgb(11, 174, 45), rgb(229, 236, 233));
+  background-image: linear-gradient(to bottom right, rgb(230, 216, 175), rgb(229, 236, 233));
 }
 
 .App-logo {
@@ -18,7 +18,7 @@
 }
 
 .App-header {
-  background-color: rgb(11, 174, 45);
+  background-color: #8F0000;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -43,14 +43,14 @@
 
 
 .mainBox {
-  background-color: rgb(11, 174, 45);
+  background-color: rgb(229, 89, 52);
   
   display: flex;
   flex-direction: column;
 }
 
 .vertNav  {
-  background-color: rgb(46, 163, 0);
+  background-color: rgb(229, 89, 52);
   display: flex;
   height: 300px;
   flex-direction: column;
@@ -60,7 +60,7 @@
 }
 
 .horzNav {
-  background-color: rgb(46, 163, 0);
+  background-color: rgb(229, 89, 52);
   display: flex;
   height: 85px;
   flex-direction: row;
@@ -71,7 +71,7 @@
 }
 
 .articleBox {
-  background-color: rgb(46, 163, 0);
+  background-color: rgb(229, 89, 52) ;
   height: 100%;
   display: flex;
   flex-direction: row;

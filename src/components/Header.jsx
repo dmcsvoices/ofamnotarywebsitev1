@@ -4,9 +4,11 @@ import HorzNav from './HorzNav';
 import '../App.css';
 
 import styled from 'styled-components';
+import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
+import { withTheme } from 'styled-components';
 
 const Div = styled.div`
-  background-color: rgb(11, 174, 45);
+  background-color: #8F0000;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -15,17 +17,21 @@ const Div = styled.div`
 
 const Div2 = styled.div`
   padding: 1px;
-  background-color: rgb(46, 163, 0);
+  background-color: rgb(229, 89, 52);
   display: flex;
   flex-direction: row;
   justify-content: center; 
 `;
 
+const H3 = styled.h3`
+  color: white;
+  `;
+
 function Header() {
   return (
     <>
     <Div>
-      <header className="App-header"><img src={logo} className="App-logo" alt="logo"/></header><h3>Serving Oceanside, Carlsbad, and Encinitas</h3>
+      <header className="App-header"><img src="../OfamNotaryLogo2022.png" className="App-logo" alt="logo"/></header><H3>Serving Oceanside, Carlsbad, and Encinitas</H3>
     </Div> 
     <Div2> 
       <HorzNav />
