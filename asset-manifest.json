@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ofamnotarywebsitev1/static/css/main.dee86e79.css",
+    "main.js": "/ofamnotarywebsitev1/static/js/main.de9ebdfa.js",
+    "static/js/787.ee4c64e8.chunk.js": "/ofamnotarywebsitev1/static/js/787.ee4c64e8.chunk.js",
+    "static/media/logo.svg": "/ofamnotarywebsitev1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ofamnotarywebsitev1/index.html",
+    "main.dee86e79.css.map": "/ofamnotarywebsitev1/static/css/main.dee86e79.css.map",
+    "main.de9ebdfa.js.map": "/ofamnotarywebsitev1/static/js/main.de9ebdfa.js.map",
+    "787.ee4c64e8.chunk.js.map": "/ofamnotarywebsitev1/static/js/787.ee4c64e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dee86e79.css",
+    "static/js/main.de9ebdfa.js"
+  ]
+}
